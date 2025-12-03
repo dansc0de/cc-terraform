@@ -1,0 +1,28 @@
+*.pem
+
+# Terraform State Files
+*.tfstate
+*.tfstate.*backup
+
+# Terraform Local Cache and Provider Binaries
+.terraform/
+
+# Terraform CLI Configuration Files
+.terraformrc
+terraform.rc
+
+# Terraform Variable Definition Files (potentially containing sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Override files (local configuration that shouldn't be shared)
+override.tf
+override.tf.json
+*._override.tf
+*._override.tf.json
+
+# Crash log files
+crash.log
+
+# Plan files (if you save them locally)
+*.tfplan

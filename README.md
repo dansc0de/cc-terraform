@@ -90,5 +90,3 @@ aws ec2 create-key-pair \
 
 ```
 
-
-# something new
